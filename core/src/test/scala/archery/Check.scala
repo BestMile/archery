@@ -1,13 +1,10 @@
 package archery
 
 import scala.collection.mutable.ArrayBuffer
-import scala.math.{ceil, min, max}
+import scala.math.{ min, max}
 import scala.util.Random.{nextGaussian, nextInt}
-import scala.util.Try
 
 import org.scalacheck.Arbitrary._
-import org.scalatest._
-import prop._
 
 import org.scalacheck._
 import Gen._
